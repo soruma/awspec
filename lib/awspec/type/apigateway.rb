@@ -15,7 +15,7 @@ module Awspec::Type
     end
 
     def api_resources
-      @api_resources.nil? ? @api_resources = find_api_resources_by_id(@id) : @api_resources
+      @api_resources.nil? ? @api_resources = find_api_resources_by_id(id) : @api_resources
     end
 
     def has_path?(path)
